@@ -55,7 +55,7 @@ const Blogs = () => {
                     {singleBlog.category}
                   </span>                  </div>
                 </div>
-                <p className="mt-2">{singleBlog?.description}</p>
+                <p className="line-clamp-3 mt-2">{singleBlog?.description}</p>
                 </Link>
               </div>
               )) 
